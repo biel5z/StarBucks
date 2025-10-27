@@ -22,6 +22,10 @@ header .line {
     height: 100px;
 
 }
+.header--right{
+    display: flex;
+    align-items: center;
+}
 
 .header-left img {
     width: 64px;
@@ -33,19 +37,31 @@ header .line {
 }
 
 .header--search input {
-    font-size: 16px;
-    padding: 7px 10px;
-    border: solid #999999;
+    font-size: 14px;
+    padding: 6px 12px;
+    border: 1px solid #999999;
     outline: 0;
     width: 100%;
-    max-width: 220px;
+    max-width: 250px;
 }
 
 .header--search button{
     border: 0;
     background-color: transparent;
+    margin-left: -35px;
+    cursor: pointer;
 }
 .header--search button img {
     width: 16px;
     height: 16px;
+}
+
+.header--menu{
+    margin-left: 50px;
+    cursor: pointer;
+
+    & img{
+        width: 24px;
+        height: 24px;
+    }
 }
