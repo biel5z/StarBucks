@@ -16,14 +16,6 @@ header .line {
     background-color: #117050;
 }
 
-h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 45px;
-    margin: 20px 0px;
-}
-
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 90px;
@@ -31,6 +23,14 @@ h1 {
     line-height: 100px;
     margin: 0;
     margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    margin: 20px 0px;
 }
 
 .button{
@@ -148,7 +148,7 @@ h1 {
 
 .area--img1 {
     background-color: #008000;
-    height: 100px;
+    height: 350px;
     background-image: url('../images/f2.jpg');
     background-position: center;
     background-size: cover;
