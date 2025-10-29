@@ -217,7 +217,7 @@ h2 {
 
 .area4{
     display: grid;
-    grid-template-columns: 450px 1fr;
+    grid-template-columns: 650px 1fr;
     background-color: #E8E9EE;
 }
 
@@ -238,7 +238,7 @@ h2 {
     background-image: url('../images/bg4.jpg');
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 600px;
 }
 
 footer{
