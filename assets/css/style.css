@@ -33,7 +33,7 @@ h2 {
     margin: 20px 0px;
 }
 
-.button{
+.button {
     border: 2px solid #454545;
     display: inline-block;
     padding: 10px 30px;
@@ -41,13 +41,15 @@ h2 {
     color: #454545;
     text-decoration: none;
 
-   
+
 }
- .button:hover{
-        color: #fff;
-        background-color: #454545;
-        transition: 0.3s;
-    }
+
+.button:hover {
+    color: #fff;
+    background-color: #454545;
+    transition: 0.3s;
+}
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -76,8 +78,8 @@ h2 {
 }
 
 .header--search input {
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 16px;
+    padding: 8px 15px;
     border: 1px solid #999999;
     outline: 0;
     width: 100%;
@@ -87,7 +89,7 @@ h2 {
 .header--search button {
     border: 0;
     background-color: transparent;
-    margin-left: -35px;
+    margin-left: -30px;
     cursor: pointer;
 }
 
@@ -137,11 +139,11 @@ h2 {
     padding: 80px;
 }
 
-.area1--quote{
+.area1--quote {
     margin-bottom: 30px;
 }
 
-.area1--text{
+.area1--text {
     margin-bottom: 50px;
     line-height: 25px;
 }
@@ -172,7 +174,7 @@ h2 {
     padding: 80px;
 }
 
-.area2--text{
+.area2--text {
     margin-bottom: 50px;
     line-height: 25px;
 }
@@ -204,7 +206,7 @@ h2 {
     background-size: cover;
 }
 
-.area3--text{
+.area3--text {
     margin-bottom: 50px;
     line-height: 25px;
 }
@@ -215,17 +217,17 @@ h2 {
     background-size: cover;
 }
 
-.area4{
+.area4 {
     display: grid;
     grid-template-columns: 650px 1fr;
     background-color: #E8E9EE;
 }
 
-.area4--content{
+.area4--content {
     padding: 160px 80px;
 }
 
-.area4--text{
+.area4--text {
     margin-bottom: 50px;
     line-height: 25px;
 }
@@ -234,53 +236,98 @@ h2 {
     background-image: url('../images/bg3.jpg');
     background-position: left;
 }
-.area5{
+
+.area5 {
     background-image: url('../images/bg4.jpg');
     background-position: center;
     background-size: cover;
     height: 600px;
 }
 
-footer{
+footer {
     background-color: #333;
     color: #fff;
     padding: 80px;
     text-align: center;
 
-    & a{
+    & a {
         color: #999999;
         text-decoration: none;
     }
 
-    & a:hover{
+    & a:hover {
         color: #117050;
         transition: 0.3ms;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1140px){
-    .container{
+@media (min-width: 769px) and (max-width: 1140px) {
+    .container {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
-@media (min-width: 426px) and (max-width: 768px){
-    .container{
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .area1{
+
+    .area1 {
         grid-template-columns: 3fr 2fr;
     }
-    .area2{
+
+    .area2 {
         grid-template-columns: 2fr 3fr;
     }
-    .area3{
+
+    .area3 {
         grid-template-columns: 3fr 2fr;
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header--menu{
+        margin-left: 20px;
+    }
+
+    .header--search input {
+        max-width: 80px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .banner--images img {
+        width: 70px;
+        height: 70px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .area1, .area2, .area3, .area4{
+        grid-template-columns: 1fr;
+    }
+    .area1--content, .area2--content, .area3--content, .area4--content{
+        padding: 40px;
+    }
+
+    .area5{
+        height: 200px;
+    }
+
+    footer{
+        font-size: 12px;
+        padding: 40px 20px;
+    }
     
 }
