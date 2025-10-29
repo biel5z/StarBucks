@@ -214,3 +214,23 @@ h2 {
     background-position: center;
     background-size: cover;
 }
+
+.area4{
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #E8E9EE;
+}
+
+.area4--content{
+    padding: 160px 80px;
+}
+
+.area4--text{
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4--img1 {
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
+}
